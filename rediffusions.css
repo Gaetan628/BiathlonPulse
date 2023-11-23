@@ -2,9 +2,12 @@ body {
     margin: auto;
     font-family: sans-serif;
     background-image: url(stade-ostersund.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
-
 span{
     font-weight: bold;
 }
