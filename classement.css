@@ -2,7 +2,6 @@ body {
     margin: auto;
     font-family: sans-serif;
     background-image: url(stade-ostersund.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,6 +22,8 @@ h1{
     text-shadow: 2px 5px 10px #d8bb15;
 }
 
+
+
 .menu ul {
     list-style: none;
     margin: 0;
@@ -40,17 +41,46 @@ h1{
     font-weight: bold;   
 }
 
+
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     
 }
+#btn{
+
+    background-color: rgb(61, 201, 254);
+    border: 1px solid whitesmoke;
+}
+
+#btn:hover {
+    border: 1px solid red;
+    border-radius: 25%;
+    transform: rotate(7deg) scale(1.4)
+}
 .hommes {width: 500px;height: 400px;margin: 0px 0px 0px 25px;}
 .femmes{width: 500px;height: 400px;margin: 0px 0px 0px 25px;}
 .nations{width: 500px;height: 400px;margin: 0px 0px 0px 25px;}
 
-.tableau-style{
+.tableau-style1{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    border: 2px solid midnightblue;
+      
+}
+.tableau-style2{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    border: 2px solid midnightblue;
+      
+}
+.tableau-style3{
     border-collapse: collapse;
     min-width: 400px;
     width: auto;
